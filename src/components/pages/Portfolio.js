@@ -13,7 +13,7 @@ export default function Portfolio() {
             <div class="card" >
               <img
                 class="card-img-top"
-                src={process.env.PUBLIC_URL + "/project2.png"}
+                src={process.env.PUBLIC_URL + "/Project2.png"}
                 alt="No Crude Food Project"
                 style={{height: "180px"}}
               ></img>
@@ -118,7 +118,7 @@ export default function Portfolio() {
             <div class="card" >
               <img
                 class="card-img-top"
-                src={process.env.PUBLIC_URL + "/Tech.png"}
+                src={process.env.PUBLIC_URL + "/Tech.PNG"}
                 alt="Tech Blog"
                 style={{height: "180px"}}
               ></img>
