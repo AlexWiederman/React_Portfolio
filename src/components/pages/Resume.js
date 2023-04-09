@@ -3,18 +3,24 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
+
+      <button><a href={process.env.PUBLIC_URL + "/Engineering Resume B.docx"} download>Download Resume</a></button>
       <h1>Resume</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+       Front End Proficiencies
+       <ul>
+        <li>React</li>
+        <li>HTML</li>
+        <li>Javascript</li>
+        <li>CSS</li>
+        <li>Handlebars</li>
+       </ul>
+       Back End Proficiencies
+       <ul>
+        <li>Javascript</li>
+        <li>MongoDB/Mongoose</li>
+        <li>MySQL/Sequilize</li>
+       </ul>
       </p>
     </div>
   );
